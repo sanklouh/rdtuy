@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function change(){
+            let x 
+            x = prompt("choisicer le nombre x")
+            let y
+            y=prompt("choisicer le nombre y")
+            let prod = document.getElementById("element")
+            prod.innerHTML =x*y
+            prod.style.color = "red"
+        }
+    </script>
+</head>
+<body>
+<p id="element">
+    Résultat
+</p>
+<button type="button" onclick="change()">Executer</button>
+</body>
+</html>
